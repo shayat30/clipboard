@@ -30,19 +30,22 @@ h2.history-heading {
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
 }
+
 p.history-content {
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 33px;
-    color:hsl(201, 11%, 66%);
+    color: hsl(201, 11%, 66%);
     text-align: center;
     padding: 16px 0px;
 }
+
 .btn-section {
     padding: 10px 0px;
 }
+
 button.android {
     width: 250px;
     height: 50px;
@@ -53,6 +56,7 @@ button.android {
     font-size: 18px;
     margin: 10px 10px;
 }
+
 button.ios {
     width: 250px;
     height: 50px;
@@ -68,16 +72,18 @@ button.ios {
 .track {
     padding: 50px 0px;
 }
+
 h2.track-heading {
     font-size: 2rem;
     text-align: center;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
     padding: 10px 0px;
 }
+
 p.track-content {
     text-align: center;
     font-size: 1.4rem;
-    color:hsl(201, 11%, 66%);
+    color: hsl(201, 11%, 66%);
     padding: 10px 0px;
 }
 
@@ -90,19 +96,23 @@ p.track-content {
     align-items: center;
     padding-bottom: 20px 0px;
 }
+
 .quick {
     padding: 10px 0px;
 }
+
 h2.quick-heading {
     font-size: 1.8rem;
     padding: 5px 0px;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
 }
+
 p.quick-content {
     font-size: 1.3rem;
     line-height: 25px;
-    color:hsl(201, 11%, 66%);
+    color: hsl(201, 11%, 66%);
 }
+
 img.tv {
     width: 100%;
     height: auto;
@@ -116,12 +126,14 @@ img.tv {
     flex-direction: column;
     align-items: center;
 }
+
 h2.access-heading {
     font-size: 3rem;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
     text-align: center;
     padding: 10px 0px;
 }
+
 p.access-content {
     font-size: 1.5rem;
     color: hsl(201, 11%, 66%);
@@ -135,10 +147,12 @@ p.access-content {
     justify-content: center;
     padding: 50px 0px;
 }
+
 img.mobile {
     width: 50%;
     height: auto;
 }
+
 /* ............................................mobile.................................................... */
 .super {
     padding: 30px 0px;
@@ -146,12 +160,14 @@ img.mobile {
     flex-direction: column;
     align-items: center;
 }
+
 h2.super-heading {
     font-size: 2rem;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
     text-align: center;
     padding: 10px 0px;
 }
+
 p.super-content {
     font-size: 1.5rem;
     color: hsl(201, 11%, 66%);
@@ -166,20 +182,23 @@ p.super-content {
     flex-wrap: wrap;
     padding: 30px 0px;
 }
+
 .create-one {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 img.create-img {
-padding: 10px 0px;
+    padding: 10px 0px;
 }
 
 h2.create-heading {
     font-size: 1.8rem;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
     padding: 20px 0px;
 }
+
 p.create-content {
     font-size: 1.1rem;
     color: hsl(201, 11%, 66%);
@@ -196,19 +215,24 @@ p.create-content {
     flex-wrap: wrap;
     padding: 50px 0px;
 }
-.img-one{
-padding: 10px 10px;
-}
-.img-two{
+
+.img-one {
     padding: 10px 10px;
 }
-.img-three{
+
+.img-two {
     padding: 10px 10px;
 }
-.img-four{
+
+.img-three {
     padding: 10px 10px;
 }
-.img-five{
+
+.img-four {
+    padding: 10px 10px;
+}
+
+.img-five {
     padding: 10px 10px;
 }
 
@@ -218,6 +242,7 @@ padding: 10px 10px;
 .clipboard {
     padding: 60px 0px;
 }
+
 .history-section {
     display: flex;
     align-items: center;
@@ -229,19 +254,22 @@ h2.history-heading {
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
 }
+
 p.history-content {
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 33px;
-    color:hsl(201, 11%, 66%);
+    color: hsl(201, 11%, 66%);
     text-align: center;
     padding: 16px 0px;
 }
+
 .btn-section {
     padding: 10px 0px;
 }
+
 button.android {
     width: 250px;
     height: 50px;
@@ -252,6 +280,7 @@ button.android {
     font-size: 18px;
     margin: 10px 10px;
 }
+
 button.ios {
     width: 250px;
     height: 50px;
@@ -265,12 +294,17 @@ button.ios {
 
 /* ............................................clipboard-section................................................... */
 .footer {
-    background-color: darkgray;
-    /* display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; */
+    background-color: #ededed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 img.footer-img {
     width: 80px;
     padding: 30px 0px;
+}
+.footer-icon img{
+padding: 0px 5px;
 }
