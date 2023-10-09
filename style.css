@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
+    list-style: none;
     ;
 }
 
@@ -26,13 +27,13 @@
 }
 
 h2.history-heading {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     text-align: center;
     color:hsl(210, 10%, 33%);
 }
 p.history-content {
-    font-size: 1.875rem;
+    font-size: 1.4rem;
     font-weight: 300;
     line-height: 33px;
     color:hsl(201, 11%, 66%);
@@ -43,23 +44,23 @@ p.history-content {
     padding: 10px 0px;
 }
 button.android {
-    width: 275px;
-    height: 60px;
+    width: 250px;
+    height: 50px;
     color: white;
     background-color: #42c498;
     border: none;
-    border-radius: 46px;
-    font-size: 22px;
+    border-radius: 30px;
+    font-size: 18px;
     margin: 10px 10px;
 }
 button.ios {
-    width: 275px;
-    height: 60px;
+    width: 250px;
+    height: 50px;
     color: white;
     background-color: #4242c4;
     border: none;
-    border-radius: 46px;
-    font-size: 22px;
+    border-radius: 30px;
+    font-size: 18px;
     margin: 10px 10px;
 }
 
@@ -68,14 +69,208 @@ button.ios {
     padding: 50px 0px;
 }
 h2.track-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     color:hsl(210, 10%, 33%);
     padding: 10px 0px;
 }
 p.track-content {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.4rem;
     color:hsl(201, 11%, 66%);
     padding: 10px 0px;
+}
+
+/* ............................................track.................................................... */
+
+.tv-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px 0px;
+}
+.quick {
+    padding: 10px 0px;
+}
+h2.quick-heading {
+    font-size: 1.8rem;
+    padding: 5px 0px;
+    color:hsl(210, 10%, 33%);
+}
+p.quick-content {
+    font-size: 1.3rem;
+    line-height: 25px;
+    color:hsl(201, 11%, 66%);
+}
+img.tv {
+    width: 100%;
+    height: auto;
+}
+
+/* ............................................tv-section.................................................... */
+
+.access {
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2.access-heading {
+    font-size: 3rem;
+    color:hsl(210, 10%, 33%);
+    text-align: center;
+    padding: 10px 0px;
+}
+p.access-content {
+    font-size: 1.5rem;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    line-height: 40px;
+}
+
+/* ............................................access.................................................... */
+.mobile {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+img.mobile {
+    width: 50%;
+    height: auto;
+}
+/* ............................................mobile.................................................... */
+.super {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2.super-heading {
+    font-size: 2rem;
+    color:hsl(210, 10%, 33%);
+    text-align: center;
+    padding: 10px 0px;
+}
+p.super-content {
+    font-size: 1.5rem;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    line-height: 40px;
+}
+
+/* ............................................super.................................................... */
+.create {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.create-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img.create-img {
+padding: 10px 0px;
+}
+
+h2.create-heading {
+    font-size: 1.8rem;
+    color:hsl(210, 10%, 33%);
+    padding: 20px 0px;
+}
+p.create-content {
+    font-size: 1.1rem;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    line-height: 35px;
+}
+
+
+/* ............................................create.................................................... */
+
+.ibm {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.img-one{
+padding: 10px 10px;
+}
+.img-two{
+    padding: 10px 10px;
+}
+.img-three{
+    padding: 10px 10px;
+}
+.img-four{
+    padding: 10px 10px;
+}
+.img-five{
+    padding: 10px 10px;
+}
+
+
+/* ............................................ibm................................................... */
+
+.clipboard {
+    padding: 60px 0px;
+}
+.history-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+h2.history-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color:hsl(210, 10%, 33%);
+}
+p.history-content {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 33px;
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+    padding: 16px 0px;
+}
+.btn-section {
+    padding: 10px 0px;
+}
+button.android {
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #42c498;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 10px 10px;
+}
+button.ios {
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #4242c4;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 10px 10px;
+}
+
+/* ............................................clipboard-section................................................... */
+.footer {
+    background-color: darkgray;
+    /* display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+}
+img.footer-img {
+    width: 80px;
+    padding: 30px 0px;
 }
